@@ -4,6 +4,7 @@ Test-CmApplicationSupersedence.ps1 defines a function `Test-CmApplicationSuperse
 
 Output is currently via the included awful function `Write-Log`.
 ### Example
+Check supersedence rules for all application objects:
 ```powershell
 Get-CmApplication | Test-CmApplicationSupersedence
 ```
