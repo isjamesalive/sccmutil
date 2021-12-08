@@ -1,8 +1,8 @@
 # sccmutil
 ## Test-CmApplicationSupersedence.ps1
-Test-CmApplicationSupersedence.ps1 defines a function `Test-CmApplicationSupersedence` that accepts a reference to a `CmApplication` object and tests that all references to applications in supersedence rules are valid.
+Test-CmApplicationSupersedence.ps1 defines a function `Test-CmApplicationSupersedence` that validates references to application objects in supersedence rules.
 
-Output is currently via the included awful function `Write-Log`.
+Output is currently textual via the included awful function `Write-Log`.
 ### Example
 Check supersedence rules for all applications:
 ```powershell
